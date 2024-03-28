@@ -1,0 +1,10 @@
+.grid1 {
+  display: grid;
+  grid-template-columns: 50fr 50fr;
+  grid-template-rows: 50fr 50fr;
+  justify-content: center;
+}
+
+.main3 {
+  padding-top: 0;
+}/*# sourceMappingURL=section_3.css.map */

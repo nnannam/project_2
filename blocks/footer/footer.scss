@@ -1,0 +1,39 @@
+.footer{
+    margin-left: 12vw;
+    margin-right: 12vw;
+    &__buttons{
+        display: flex;
+        align-items: center;
+        column-gap: 50px;
+    }
+    &__title{
+        @include large-text(36,18);
+    }
+    &__menu-1-link,
+    &__menu-2-link,
+    &__menu-3-link{
+        @include small-text;
+        line-height: 2.5;
+    }
+    &__icons-list{
+        display: flex;
+        justify-content: flex-end;
+        column-gap: 30px;
+        margin-top: 50px;
+    }
+}
+.block1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+hr{
+    border-color: rgb(52, 52, 52);
+}
+.block2{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 30px;
+}

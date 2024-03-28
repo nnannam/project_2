@@ -1,0 +1,24 @@
+.main5{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 12vw;
+    padding-top: 100px;
+    &__category{
+        @include orange-text;
+    }
+    &__title{
+        @include large-text;
+    }
+    &__description{
+        @include small-text;
+    }
+    &__body{
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+    }
+    &__image{
+        width: 35vw;
+    }
+}

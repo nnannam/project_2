@@ -1,0 +1,26 @@
+.footer {
+  margin-left: 12vw;
+  margin-right: 12vw;
+}
+.footer__buttons {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 50px;
+       column-gap: 50px;
+}
+.block1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+hr {
+  border-color: rgb(52, 52, 52);
+}
+
+.block2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}/*# sourceMappingURL=footer.css.map */

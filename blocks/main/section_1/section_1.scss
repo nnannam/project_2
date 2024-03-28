@@ -1,0 +1,21 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 115px;
+    &__description{
+        @include orange-text;
+    }
+    &__title{
+        display: flex;
+        flex-direction: column;
+    }
+    &__title-line1{
+        @include large-text(96,64);
+    }
+    &__title-line2{
+        @include large-text(88,64);
+        font-weight: 400;
+    }
+}

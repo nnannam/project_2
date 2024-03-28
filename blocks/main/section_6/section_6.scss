@@ -1,0 +1,37 @@
+.main6{
+    padding-top: 0;
+    &__category{
+        @include orange-text;
+    }
+    &__title{
+        @include large-text;
+    }
+    &__description{
+        @include small-text;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.grid2{
+    display: grid;
+    justify-content: center;
+    grid-template-columns:  17vw 17vw 17vw 17vw;
+    grid-template-rows: 0.5fr 0.5fr;
+    gap: 20px;
+    &__image{
+        width: 17vw;
+    }
+    &__image-1{
+        width: 35vw;
+    }
+    &__item1{
+        grid-column: span 2;
+    }
+    &__item5{
+        grid-column-start: 2;
+        grid-column-end: 4;
+    }
+}

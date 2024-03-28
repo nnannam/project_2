@@ -1,0 +1,23 @@
+.grid1__image{
+    width: 35vw;
+    border: 10px solid black;
+}
+.grid1{
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+    grid-template-rows: 0.5fr 0.5fr;
+    justify-content: center;
+}
+.main3{
+    padding-top: 0;
+    &__category{
+        @include orange-text;
+    }
+    &__title{
+        @include large-text;
+        margin-bottom: 20px;
+    }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

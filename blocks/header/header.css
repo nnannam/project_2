@@ -1,0 +1,24 @@
+.header {
+  padding-top: 60px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  -moz-column-gap: 50px;
+       column-gap: 50px;
+}
+.header__menu {
+  font-size: 18px;
+}
+.header__menu-list {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 50px;
+       column-gap: 50px;
+}
+.header__menu-link:hover {
+  color: #FFC178;
+}/*# sourceMappingURL=header.css.map */

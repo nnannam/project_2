@@ -1,0 +1,33 @@
+@mixin large-text ($max: 64, $min: 18){
+    font-size: clamp(#{$min}px, #{$max / 1920 * 100}vw, #{$max}px);
+    color: #fff;
+    font-weight: 700;
+    margin: 0;
+}
+@mixin small-text{
+    font: {
+        family: "Open Sans", sans-serif;
+        size: 18px;
+        weight: 400;
+      }
+    color: #fff;
+}
+@mixin orange-text{
+    font: {
+        family: "Open Sans", sans-serif;
+        size: 18px;
+        weight: 700;
+      }
+    color: #FBD784;
+    letter-spacing: 6px;
+}
+@mixin button{
+    height: 50px;
+    width: 180px;
+    background-color: #118DA8;
+    border-radius: 7px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 17px;
+    color: #fff;
+    border: none;
+}
