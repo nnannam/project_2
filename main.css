@@ -1,7 +1,7 @@
 .header {
   padding-top: 60px;
   margin-left: 80px;
-  margin-right: 80px;
+  margin-right: 80px; 
 }
 .header__inner {
   display: flex;
@@ -58,7 +58,7 @@ li {
 }
 
 .background {
-  background-image: url("./images/Background.png");
+  background-image: url("../images/Background.png");
   padding-bottom: 100px;
 }
 
@@ -147,7 +147,7 @@ li {
   padding-top: 0;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: center; 
 }
 .main3__category {
   font-family: "Open Sans", sans-serif;
